@@ -95,20 +95,12 @@ PipFlutterPlayerDataSource dataSource = PipFlutterPlayerDataSource(
 ```
 - PipFlutterPlayer : 
 ```Dart
-PipFlutterPlayer(
-controller: pipFlutterPlayerController,
-key: pipFlutterPlayerKey,
-),
 ```
-
-- Make your video in Pip mode put this code on your onTap.
-```Dart
-pipFlutterPlayerController.enablePictureInPicture(pipFlutterPlayerKey);
-```
+- Make your video in Pip mode put this code on your
 
 - And make your video in disable mode put this code on your onTap.
 ```Dart
-pipFlutterPlayerController.disablePictureInPicture();
+pipFlutterPlayerController.disablePictureInPicture()
 ```
 
 Run the example app in the exmaple folder to find out more about how to use it.
